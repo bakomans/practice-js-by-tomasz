@@ -55,7 +55,7 @@ var gridDisplay = document.querySelector("#grid");
 
 // function create board 
 function createBoard () {
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < cardArray.length; i++) {
         var card = document.createElement("img");
         card.setAttribute("src", "img/blank.png");
         card.setAttribute("data-id", i);
